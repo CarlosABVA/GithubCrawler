@@ -176,4 +176,3 @@ if __name__ == "__main__":
     c = GithubCrawler(inputs)
     c.execute_search()
     c.results_to_file("output.json")
-    print(c.output)
