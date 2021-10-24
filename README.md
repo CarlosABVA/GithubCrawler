@@ -1,6 +1,8 @@
 # GithubCrawler
 This is a simple github crawler that retrieves search results from the 1st page of results from a github search.
 
+To execute, run main.py
+
 The GithubCrawler object needs a JSON input with the following structure: 
   - keywords: list of keywords to search
   - proxies: list of proxies to use to make the requests. One of them is selected randomly to perform all requests.
@@ -15,5 +17,3 @@ The output will be a JSON containing the urls from the 1st page of results. If '
  - extra:
       - owner: name of the repository owner
       - languages: list of languages used and its % of usage 
-
-To execute, run main.py
