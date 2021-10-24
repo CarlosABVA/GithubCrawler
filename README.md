@@ -15,3 +15,5 @@ The output will be a JSON containing the urls from the 1st page of results. If '
  - extra:
       - owner: name of the repository owner
       - languages: list of languages used and its % of usage 
+
+To execute, run main.py
